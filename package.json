@@ -1,0 +1,33 @@
+{
+  "name": "travis-testing",
+  "version": "0.0.1",
+  "description": "A simple loop to learn how to setup and use various nodejs testing tools with Travis Ci",
+  "main": "app/counter.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoublePlusGood23/travis-testing.git"
+  },
+  "keywords": [
+    "testing",
+    "travis-ci",
+    "mocha",
+    "nodejs",
+    "ci"
+  ],
+  "author": "Ethan R. Jones",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DoublePlusGood23/travis-testing/issues"
+  },
+  "homepage": "https://github.com/DoublePlusGood23/travis-testing#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
